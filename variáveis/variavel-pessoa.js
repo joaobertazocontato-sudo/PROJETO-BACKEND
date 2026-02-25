@@ -11,3 +11,15 @@ let nota = 7 + 2
 console.log(nome)
 
 console.log(typeof nome)
+
+console.log(sobrenome)
+
+console.log(cpf)
+
+console.log(rg)
+
+console.log(idade)
+
+console.log(solteiro)
+
+console.log(nota)

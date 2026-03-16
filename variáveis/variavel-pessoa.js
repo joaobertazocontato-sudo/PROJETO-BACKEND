@@ -1,6 +1,6 @@
 
 
-let nome = 'pericles'
+let nome = "pericles"
 let sobrenome = 'solza'
 const cpf = "888888888-88"
 const rg = "121212 ssp"

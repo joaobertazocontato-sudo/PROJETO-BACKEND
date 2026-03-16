@@ -1,4 +1,4 @@
-let idadedepessoa = 19
+let idadedepessoa = 12
 
 if (idadedepessoa > 100) {
     console.log("favor aprensentar acompanhante")
@@ -6,5 +6,5 @@ if (idadedepessoa > 100) {
     console.log("bem-vindo, a festa")
     console.log("festa sugerida > pericles!!!!")
 } else {
-    console.log("a festa não é para sua iadade vaza pivete")
+    console.log("a festa não é para sua idade vaza pivete")
 }

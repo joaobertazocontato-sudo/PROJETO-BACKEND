@@ -1,12 +1,17 @@
-const funildeoleo = {
-    nome: "funil",
-    modelos: "funilGrande",
-    cores: ["Azul", "preto"],
-}
-funildeoleo
-funildeoleo.modelo = "funilGrande"
-funildeoleo["nome"] = "funilpequeno"
-console.log(funildeoleo.nome)
-console.log(funildeoleo.modelo)
+// Objetos são estruturas do tipo chave-valor
+// podemos atribuir de forma dinâmica, assim como
+// Objetos tem índices nomeados
+// Podemos usar (for  of) ou (for in)
 
-//for(funil in funildeoleo){ console.log(carro)}
+const carros = {
+    nome: "Camaro",
+    modelo: "xpto Cam",
+    cores: ["amarelo" , "preto"],
+}
+
+carros.modelo = "Fusca"
+carros[ "nome" ] = "Chev"
+console.log(carros.modelo)
+console.log(carros.nome)
+
+// for(carro in carros){ console.log(carro) }

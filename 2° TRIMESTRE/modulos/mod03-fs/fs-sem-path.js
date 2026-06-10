@@ -1,10 +1,8 @@
-const fs = require('fs');
+const fs = require ('fs');
 
-console.log(fs)
+//console.log(fs);
+const arquivo = fs.readFileSync('README.md', 'utf-8');
+console.log(arquivo);
 
-//const arquivo = fs.readFileSync('./README.md', 'utf-8');
-
-//const caminho = fs.readFileSync(__dirname + '/README.md', 'utf-8');
-console.log(caminho)
-
-
+const arquivoFinal = fs.readFileSync(__dirname + "/README.md" , "utf-8");
+console.log(arquivoFinal);

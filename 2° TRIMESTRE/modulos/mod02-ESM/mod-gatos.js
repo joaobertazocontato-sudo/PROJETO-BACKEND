@@ -1,13 +1,12 @@
-let raçaViraLata = "Vira-Lata"
+export function banhoGato(racaGato, tipoBanho){
+    return `Gato ${racaGato} fez um banho: ${tipoBanho}.`
+};
 
-export function banhopet (RaçaGato, tipobanho){
-    return `gato ${raçagato} fez um banho ${tipobanho}`
-}
 
-export function Tosapet (RaçaGato, tipoTosa){
-    return `gato ${raçagato} fez uma tosa ${tipoTosa}`
-}
+export function tosaGato(racaGato, tipoTosa){
+    return `Gato ${racaGato} fez uma tosa: ${tipoTosa}.`
+};
 
-export function alimentaçãopet (RaçaGato, tipoAlimentação){
-    return `gato ${raçagato} comeu ${tipoAlimentação}`
+export function alimentoGato(racaGato, tipoRacao){
+    return `Gato ${racaGato} foi alimentado com: ${tipoRacao}.`  
 }

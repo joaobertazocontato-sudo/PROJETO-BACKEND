@@ -10,13 +10,11 @@ try{
 const caminho = path.resolve(__dirname, "READE.md");//Abrir, ler, deletar, editar
 
 const arquivo = fs.readFileSync(caminho, 'utf-8');
-console.log(arquivo);
+console.log(GAY);
 
 } catch(error){
     // console.log(error.errno);
-       console.log('-------------------')
-    console.warn("Atenção!"+error.path);
-   throw new Error('Mensagem de erro personalizada');
+       console.log('Falha ao carregar o arquivo. Tente novamente mais tarde')
 
-   console.log('-------------------')
+   console.log('Erro interno de leitura de arquivo \n', error.message)
 }

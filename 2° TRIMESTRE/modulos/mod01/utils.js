@@ -1,13 +1,16 @@
-let healt = 100;
+const mod_calc = require("./mod_calc")
 
-function DanoJogador(arma, dano) {
-    if (healt <= 0) {
-        console.log("O jogador já está morto!");
-    }
-    else {
-        const danoTotal = healt - dano
-        return `${arma} causa dano ${dano} -> ${danoTotal}`;
-    }
-}   
+let healt = 100
 
-exports.DanoJogador = DanoJogador;
+function danoJogador(arma, dano) {
+    if(healt <= 0) {
+        console.log('Jogador já está mmorto')
+    } else {
+    const danoTotal = healt - dano
+    return `${arma} causa dano ${dano} -> ${danoTotal}`
+}
+}
+
+module.exports = {
+    danoJogador
+}

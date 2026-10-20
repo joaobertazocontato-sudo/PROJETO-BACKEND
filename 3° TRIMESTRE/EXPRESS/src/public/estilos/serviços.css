@@ -1,4 +1,7 @@
-*{
-    background-color: rgb(205, 206, 255);
-    color: aliceblue;
+* {
+    background-color: rgb(5, 114, 9);
+    color: white;
+}
+img {
+    width: 150px;
 }
